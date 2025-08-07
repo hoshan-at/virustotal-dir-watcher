@@ -1,0 +1,40 @@
+{
+  "api_key": "",
+  "watch_directories": [
+    "/srv/syncthing/sync"
+  ],
+  "log_directory": "/opt/virustotal",
+  "scan_log_file": "/opt/virustotal/scanned_hashes.json",
+  
+  "api_requests_per_minute": 4,
+  "api_timeout": 300,
+  
+  "max_file_size_mb": 650,
+  "settle_time_seconds": 10,
+  "quarantine_directory": "/opt/virustotal/quarantine",
+  "delete_malicious": true,
+  
+  "excluded_extensions": [
+    ".tmp",
+    ".temp",
+    ".part",
+    ".download",
+    ".crdownload",
+    ".lock",
+    ".swp",
+    ".bak",
+    ".~"
+  ],
+  
+  "excluded_patterns": [
+    "~*",
+    ".*",
+    "Thumbs.db",
+    "desktop.ini",
+    ".DS_Store"
+  ],
+  
+  "log_level": "INFO",
+  "log_rotation_size_mb": 10,
+  "log_rotation_count": 5
+}

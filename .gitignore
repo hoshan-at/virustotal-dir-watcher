@@ -1,0 +1,5 @@
+scanned_hashes.json
+quarantine
+venv
+vt_scanner.log
+.env
