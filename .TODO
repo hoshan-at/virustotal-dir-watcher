@@ -1,0 +1,3 @@
+- New file uploads apperantly do not consume API quota. Modify the script to not consume a token for file uploads.
+- Fix periodic scan logging when no changes were detected to avoid unneccessary logspam. 
+- Move some hardcoded variables to the config.json file
