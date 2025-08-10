@@ -7,7 +7,7 @@
   "scan_log_file": "/opt/virustotal/scanned_hashes.json",
   "api_requests_per_minute": 4,
   "api_timeout": 300,
-  "max_parallel_uploads": 4,
+  "max_parallel_uploads": 7,
   "settle_time_seconds": 10,
   "max_queue_size": 1000,
   "batch_check_interval": 5,
